@@ -1,0 +1,48 @@
+
+td.id {
+	min-width: 44;
+}
+
+td.url {
+	min-width: 160;
+}
+
+td.pingreply {
+	min-width: 102;
+}
+
+td.getreply {
+	min-width: 93;
+}
+
+td.active {
+	min-width: 60;
+}
+
+td.time {
+	min-width: 150;
+}
+
+td.action {
+	min-width: 150;
+}
+
+div.chart_div{
+	width: 1200;
+	height:360;
+}
+
+div.dht{
+	text-align: center;
+}
+
+div.bhtw{
+	text-align: center;	
+}
+div.add{
+	margin-left: 120px;
+}
+
+div.searchdate{
+	text-align: center;
+}

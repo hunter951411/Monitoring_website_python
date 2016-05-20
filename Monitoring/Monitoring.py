@@ -102,7 +102,7 @@ def Get_Time(url):
 #Ham thuc hien gui mail cho Admin cua Server chua url, voi tham so truyen vao la thoi gian url chet: timedie
 # va mail cua Admin: mailreport
 def Send_Mail(timedie, mailreport):
-	fromaddr = "VNIST Report"
+	fromaddr = "Monitoring Report"
 	msg = email.MIMEMultipart.MIMEMultipart()
 	msg['From'] = fromaddr
 	msg['To'] = email.Utils.COMMASPACE.join(mailreport.split())

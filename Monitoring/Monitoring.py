@@ -23,7 +23,7 @@ import timeit
 #Khai bao cac thong so mail va dang nhap vao mail de bao cho mail Admin
 server = smtplib.SMTP()
 EMAIL_ACCOUNT = "Bcct28042016@gmail.com"
-EMAIL_PASS = "HelloVietNam28042016"
+EMAIL_PASS = "HelloVietNam"
 server.connect('smtp.gmail.com', port = 587) 
 server.ehlo()
 server.starttls()
